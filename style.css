@@ -997,3 +997,119 @@ header{
   }
 }
 
+
+/* Thank You Section */
+.scc-thankyou-wrapper {
+  background: linear-gradient(135deg, #0fb9b1, #2d98da);
+  padding: 80px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scc-thankyou-container {
+  background: #ffffff;
+  max-width: 720px;
+  width: 100%;
+  padding: 50px 40px;
+  border-radius: 18px;
+  text-align: center;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.15);
+}
+
+.scc-thankyou-icon {
+  width: 72px;
+  height: 72px;
+  margin: 0 auto 20px;
+  background: #0fb9b1;
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 700;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scc-thankyou-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 15px;
+}
+
+.scc-thankyou-subtitle {
+  font-size: 18px;
+  color: #4b5563;
+  margin-bottom: 30px;
+}
+
+.scc-thankyou-message p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #374151;
+  margin-bottom: 15px;
+}
+
+.scc-thankyou-actions {
+  margin-top: 35px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Buttons */
+.scc-btn {
+  padding: 14px 28px;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.scc-btn-primary {
+  background: #ef4444;
+  color: #ffffff;
+}
+
+.scc-btn-primary:hover {
+  background: #dc2626;
+}
+
+.scc-btn-outline {
+  border: 2px solid #0fb9b1;
+  color: #0fb9b1;
+}
+
+.scc-btn-outline:hover {
+  background: #0fb9b1;
+  color: #ffffff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .scc-thankyou-container {
+    padding: 40px 25px;
+  }
+
+  .scc-thankyou-title {
+    font-size: 26px;
+  }
+
+  .scc-thankyou-subtitle {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .scc-thankyou-title {
+    font-size: 22px;
+  }
+
+  .scc-thankyou-message p {
+    font-size: 15px;
+  }
+}
+
