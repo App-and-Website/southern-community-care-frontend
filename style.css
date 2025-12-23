@@ -900,4 +900,100 @@ header{
 }
 
 
+.scc-resources-wrapper {
+  padding: 80px 20px;
+  background: #f9fafb;
+}
+
+.scc-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.scc-resources-intro {
+  margin: 0 auto 60px;
+}
+
+.scc-resources-intro h2 {
+  font-size: 36px;
+  margin-bottom: 16px;
+}
+
+.scc-resources-intro p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #555;
+}
+
+.scc-disclaimer {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #777;
+}
+
+.scc-resource-section {
+  margin-bottom: 60px;
+}
+
+.scc-resource-section h3 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  border-left: 5px solid #2a7f6f;
+  padding-left: 15px;
+}
+
+.scc-resource-card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+  margin-bottom: 25px;
+}
+
+.scc-resource-card h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.scc-resource-card p {
+  font-size: 15px;
+  color: #444;
+  line-height: 1.6;
+}
+
+.scc-resource-cta {
+  text-align: center;
+  padding: 50px 30px;
+  background: #2c7be5;
+  color: #fff;
+  border-radius: 12px;
+}
+
+.scc-resource-cta p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.scc-btn-primary {
+  display: inline-block;
+  padding: 12px 30px;
+  background: #fff;
+  color: #2c7be5;
+  font-weight: 600;
+  border-radius: 30px;
+  text-decoration: none;
+}
+.scc-resource-card a {
+  color:#2c7be5;
+}
+/* Responsive */
+@media (max-width: 768px) {
+  .scc-resources-intro h2 {
+    font-size: 28px;
+  }
+
+  .scc-resource-section h3 {
+    font-size: 22px;
+  }
+}
 
