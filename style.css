@@ -245,3 +245,485 @@
 }
 
 
+/* ===== Our Values Section ===== */
+.scc-values-section {
+  background-color: #f7f9fa;
+  padding: 80px 20px;
+}
+
+.scc-values-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header */
+.scc-values-header {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 60px;
+}
+
+.scc-values-header h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #123b3d;
+  margin-bottom: 15px;
+}
+
+.scc-values-header h2 span {
+  color: #00a7a7;
+}
+
+.scc-values-header p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #5f6f73;
+}
+
+/* Grid */
+.scc-values-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+
+
+/* Cards */
+.scc-value-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 30px 28px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-top: 4px solid #00a7a7;
+  flex: 1 1 calc(33.333% - 20px);
+  max-width: calc(33.333% - 20px);
+}
+
+.scc-values-grid .scc-value-card:nth-last-child(-n + 2) {
+  flex: 1 1 calc(50% - 15px);
+  max-width: calc(50% - 15px);
+}
+
+
+.scc-value-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+}
+
+.scc-value-card h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #e94b4b;
+  margin-bottom: 12px;
+}
+
+.scc-value-card p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #5f6f73;
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+  .scc-value-card {
+    flex: 1 1 calc(50% - 15px);
+    max-width: calc(50% - 15px);
+  }
+
+  .scc-values-grid .scc-value-card:nth-last-child(-n + 2) {
+    flex: 1 1 calc(50% - 15px);
+    max-width: calc(50% - 15px);
+  }
+}
+
+@media (max-width: 575px) {
+  .scc-values-section {
+    padding: 60px 15px;
+  }
+
+   .scc-value-card {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+  .scc-values-grid .scc-value-card:nth-last-child(-n + 2) {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .scc-values-header h2 {
+    font-size: 26px;
+  }
+}
+
+
+
+/* ===== Governance & Compliance Section ===== */
+.scc-gov-section {
+  padding: 60px 20px;
+}
+
+.scc-gov-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header */
+.scc-gov-header {
+  text-align: left;
+  max-width: 100%;
+  margin: 0 auto 60px;
+}
+
+.scc-gov-header h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #123b3d;
+  margin-bottom: 16px;
+}
+
+.scc-gov-header h2 span {
+  color: #00a7a7;
+}
+
+.scc-gov-header p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #5f6f73;
+}
+
+/* Accreditation */
+.scc-gov-accreditation h3,
+.scc-gov-framework h3 {
+  font-size: 26px;
+  font-weight: 600;
+  color: #123b3d;
+  margin-bottom: 30px;
+}
+
+.scc-gov-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.scc-gov-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 30px;
+  border-left: 5px solid #00a7a7;
+}
+
+.scc-gov-card h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #e94b4b;
+  margin-bottom: 12px;
+}
+
+.scc-gov-card p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #5f6f73;
+}
+
+/* Framework */
+.scc-gov-framework {
+  margin-top: 70px;
+}
+
+.scc-gov-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 30px;
+}
+
+.scc-gov-list li {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px 22px;
+  margin-bottom: 15px;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #5f6f73;
+}
+
+.scc-gov-list li strong {
+  color: #123b3d;
+}
+
+.scc-gov-footer {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #123b3d;
+  font-weight: 500;
+}
+
+.scc-gov-highlight {
+  background: #fff;
+  border-left: 5px solid #e94b4b;
+  padding: 22px 26px;
+  border-radius: 12px;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #e94b4b;
+  font-weight: 600;
+  max-width: 100%;
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+  .scc-gov-header h2 {
+    font-size: 30px;
+  }
+
+  .scc-gov-accreditation h3,
+  .scc-gov-framework h3 {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 575px) {
+  .scc-gov-section {
+    padding: 60px 15px;
+  }
+
+  .scc-gov-header h2 {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 575px) {
+  .scc-gov-highlight {
+    font-size: 16px;
+    padding: 18px 20px;
+  }
+}
+
+
+.contact-info .content a {
+    color: var(--theme-color);
+    font-weight: 500;
+    font-size: 16px;
+}
+.form-group .nice-select{
+  color: #888;
+}
+.contact-map iframe{
+    border: 4px solid #fff!important;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+/* ===== Callback Section ===== */
+.scc-callback-section {
+  padding: 90px 0;
+  background: #f7f9fa;
+}
+
+.scc-callback-wrap {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.scc-callback-content {
+  flex: 1;
+}
+
+.scc-callback-content h2 {
+  font-size: 34px;
+  color: #123b3d;
+  margin-bottom: 15px;
+}
+
+.scc-callback-content p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #5f6f73;
+}
+
+.scc-callback-points {
+  margin-top: 20px;
+  padding: 0;
+  list-style: none;
+}
+
+.scc-callback-points li {
+  margin-bottom: 10px;
+  font-weight: 500;
+  color: #123b3d;
+}
+
+.scc-callback-form {
+  flex: 1;
+  background: #ffffff;
+  padding: 35px;
+  border-radius: 18px;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.08);
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+  .scc-callback-wrap {
+    flex-direction: column;
+  }
+}
+
+
+/* ===== Careers Info Section ===== */
+.scc-careers-info-section {
+  padding: 70px 0;
+}
+
+.scc-careers-info-wrap {
+  display: flex;
+  gap: 50px;
+  align-items: stretch;
+}
+
+.scc-careers-info-content {
+  flex: 1.2;
+}
+
+.scc-careers-info-content h2 {
+  font-size: 34px;
+  color: #123b3d;
+  margin-bottom: 16px;
+}
+
+.scc-careers-info-content p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #5f6f73;
+  margin-bottom: 20px;
+}
+
+.scc-careers-benefits {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 30px;
+}
+
+.scc-careers-benefits li {
+  margin-bottom: 10px;
+  font-weight: 500;
+  color: #123b3d;
+}
+
+.scc-careers-info-highlight {
+  flex: 1;
+  background: #ffffff;
+  padding: 35px;
+  border-radius: 18px;
+  border-left: 5px solid #00a7a7;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.08);
+}
+
+.scc-careers-info-highlight h3 {
+  font-size: 22px;
+  color: #e94b4b;
+  margin-bottom: 12px;
+}
+
+.scc-careers-info-highlight p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #5f6f73;
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+  .scc-careers-info-wrap {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 575px) {
+  .scc-careers-info-content h2 {
+    font-size: 26px;
+  }
+}
+
+
+
+/* ===== Referral Section ===== */
+.scc-referral-section {
+  padding: 90px 0;
+  background: #ffffff;
+}
+
+.scc-referral-header {
+  text-align: center;
+  max-width: 850px;
+  margin: 0 auto 50px;
+}
+
+.scc-referral-header h2 {
+  font-size: 34px;
+  color: #123b3d;
+  margin-bottom: 15px;
+}
+
+.scc-referral-header p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #5f6f73;
+}
+
+/* Steps */
+.scc-referral-steps {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+.scc-referral-step {
+  background: #f7f9fa;
+  padding: 25px 22px;
+  border-radius: 14px;
+  text-align: center;
+  max-width: 280px;
+}
+
+.scc-referral-step span {
+  display: inline-block;
+  width: 42px;
+  height: 42px;
+  line-height: 42px;
+  background: #00a7a7;
+  color: #ffffff;
+  border-radius: 50%;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.scc-referral-step p {
+  font-size: 15px;
+  color: #5f6f73;
+  line-height: 1.6;
+}
+
+/* Form Box */
+.scc-referral-form {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #f7f9fa;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+/* Responsive */
+@media (max-width: 575px) {
+  .scc-referral-header h2 {
+    font-size: 26px;
+  }
+
+  .scc-referral-form {
+    padding: 25px;
+  }
+}
+
