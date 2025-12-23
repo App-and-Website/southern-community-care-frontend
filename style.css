@@ -1,4 +1,7 @@
 
+header{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px!important;
+}
 
 .ddnone{
     display: none!important;
@@ -725,4 +728,176 @@
     padding: 25px;
   }
 }
+
+
+
+.scc-advocacy-section {
+    padding: 80px 0px;
+    color: #333;
+}
+
+.scc-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.scc-advocacy-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.scc-advocacy-header h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.scc-advocacy-header h3 {
+    font-size: 22px;
+    color: #2a7f6f;
+    margin-bottom: 15px;
+}
+
+.scc-advocacy-header p {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+
+.scc-advocacy-block {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 70px;
+    align-items: center;
+}
+
+.scc-advocacy-block.reverse {
+    flex-direction: row-reverse;
+}
+
+.scc-advocacy-content {
+    flex: 1;
+}
+
+.scc-advocacy-content h4 {
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+
+.scc-subtitle {
+    font-weight: 600;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.scc-advocacy-list {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.scc-advocacy-list li {
+    margin-bottom: 12px;
+    line-height: 1.6;
+    list-style-type: disc;
+}
+
+.scc-note {
+    font-style: italic;
+    color: #555;
+}
+
+.scc-advocacy-image {
+    flex: 1;
+}
+
+.scc-img-placeholder {
+    background: #e5e7eb;
+    height: 280px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #777;
+    font-size: 14px;
+}
+.scc-img-placeholder {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.scc-img-placeholder img{
+  border: 4px solid #fff;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.scc-advocacy-impact {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    margin-bottom: 60px;
+}
+
+.scc-advocacy-impact h4 {
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.scc-advocacy-impact ul {
+    padding-left: 20px;
+}
+
+.scc-advocacy-impact li {
+    margin-bottom: 10px;
+    list-style-type: disc;
+}
+
+.scc-advocacy-cta {
+    text-align: center;
+    padding: 50px 20px;
+    background: #2a7f6f;
+    color: #fff;
+    border-radius: 14px;
+}
+
+.scc-advocacy-cta h4 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.scc-advocacy-cta p {
+    margin-bottom: 25px;
+}
+
+.scc-btn-primary {
+    display: inline-block;
+    padding: 14px 32px;
+    background: #fff;
+    color: #2a7f6f;
+    border-radius: 30px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.highlighted_text{
+  color: #2a7f6f;
+  font-weight: 600;
+  font-size: 18px;
+}
+/* Responsive */
+@media (max-width: 768px) {
+    .scc-advocacy-block,
+    .scc-advocacy-block.reverse {
+        flex-direction: column;
+    }
+
+    .scc-advocacy-header h2 {
+        font-size: 28px;
+    }
+
+    .scc-advocacy-content h4 {
+        font-size: 22px;
+    }
+}
+
+
 
